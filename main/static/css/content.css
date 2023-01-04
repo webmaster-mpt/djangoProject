@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    margin: 30px auto;
+    width: 80%;
+    height: fit-content;
+
+    background: linear-gradient(90.45deg, rgba(255, 255, 255, 0.24) -4.58%, rgba(255, 255, 255, 0.08) 103.66%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.my-head {
+    margin: 50px;
+    width: 100%;
+    font-weight: 700;
+}
+.my-head > h1{
+    text-align: left;
+    font-size: 36px;
+}
+.awards_table-year, .outreach_table-year, .skills_languages_table-year, .education_table-year, .experience_table-year{
+    text-align: right;
+    vertical-align: top;
+}
+.awards_table-info, .outreach_table-info, .skills_languages_table-info, .education_table-info, .experience_table-info{
+    min-width: 436px;
+    max-width: 627px;
+    min-height: 35px;
+    max-height: 170px;
+}
+
+.education_table-info_pd, .experience_table-info_pd{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+
+    min-width: 436px;
+    max-width: 627px;
+    min-height: 35px;
+    max-height: 170px;
+}
+
+.education_table-info_pd_link, .experience_table-info_pd_link{
+    padding: 0;
+    color: #424242;
+}
+
+.awards, .awards > table, .outreach, .outreach > table, .skills_languages, .skills_languages > table, .education, .education > table, .additional-training, .additional-training > table, .experience, .experience > table{
+    width: 100%;
+}
+
+tr{
+    margin: 10px 0;
+}
+tbody{
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.awards >h1, .outreach >h1, .skills_languages >h1 ,.education > h1, .experience > h1{
+    margin-bottom: 10px;
+}
+
+.additional-training > h1{
+    margin: 10px 0;
+}
+.my-head > p{
+    width: 485px;
+    text-align: left;
+
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+}

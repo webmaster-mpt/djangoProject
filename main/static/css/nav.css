@@ -1,0 +1,101 @@
+/*menu*/
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #7e859f;
+    /*background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F--U5WM3qlEpQ%2FUyC0mBK7D0I%2FAAAAAAAB63M%2FELbiM-ziI4M%2Fs1600%2F%2525E3%252582%2525B8%2525E3%252583%2525A3%2525E3%252583%2525BC%2525E3%252583%25259E%2525E3%252583%2525B3%2525E2%252598%252586%2525E3%252583%252589%2525E3%252583%252583%2525E3%252582%2525B0-843445-www.kaifineart.com-3.jpg&f=1&nofb=1);!*ПОМЕНЯЙ ЗАДНИЙ ФОН*!*/
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    height: fit-content;
+    /*font-family: "Raleway", sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    height: 48px;
+    margin: 0 auto;
+    width: 80%;
+    background: linear-gradient(90.45deg, rgba(255, 255, 255, 0.24) -4.58%, rgba(255, 255, 255, 0.08) 103.66%);
+    backdrop-filter: blur(7.5px);
+    border-radius: 0 0 40px 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main > li > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a {
+    /*color: #fff;*/
+    text-transform: capitalize;
+    /*font-family: monospace;*/
+    display: block;
+    padding: 10px 10px;
+    font-size: 18px;
+    min-width: 200px; /*изменение меню при масштабирования*/
+    max-width: 200px;
+    transition: background-color 0.5s ease-in-out;
+    /*font-family: "Raleway", sans-serif;*/
+}
+
+a:hover {
+    color: #fff;
+}
+
+.drop li {
+    opacity: 0;
+    transform-origin: top center;
+}
+
+.drop li a {
+    background-color: #000000;
+    padding: 8px 0;
+    color: #ffffff;
+}
+
+footer{
+    height: 100px;
+    margin: 0 auto;
+    width: 80%;
+    padding: 30px 50px;
+
+    background: linear-gradient(90.45deg, rgba(255, 255, 255, 0.24) -4.58%, rgba(255, 255, 255, 0.08) 103.66%);
+    backdrop-filter: blur(7.5px);
+    border-radius: 40px 40px 0 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.foot-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot-container>*{
+    flex: 1 1 160px;
+}
+.telephone{
+    text-align: left;
+}
+.email-site{
+    text-align: right;
+}

@@ -1,0 +1,32 @@
+{% block title %}{% endblock %}
+{% load static %}
+<link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/nav.css' %}">
+<link rel="stylesheet" href="{% static 'css/content.css' %}">
+<nav>
+    <ul class="main">
+        <li>
+            <a href="{% url 'index' %}">Main</a>
+        </li>
+        <li>
+            <a href="{% url 'education' %}">Education</a>
+        </li>
+        <li>
+            <a href="{% url 'experience' %}">Experience</a>
+        </li>
+    </ul>
+</nav>
+<body>
+{% block content %}{% endblock %}
+<footer>
+    <div class="foot-container">
+        <div class="telephone">
+            <span>+84 77 777 77 77</span>
+        </div>
+        <div class="email-site">
+            <span>seven.allseven@gmail.com</span>
+            <span>seven.allsevent@aboba.org</span>
+        </div>
+    </div>
+</footer>
+</body>
