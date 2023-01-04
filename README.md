@@ -1,2 +1,3 @@
 # djangoProject
-my first project on python(Django)
+Мой первый проект на python(Django).
+Реазилован простой веб-сайт портфолио.
